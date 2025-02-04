@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --navy: #1d2e44;
+  --green: #006848;
+  --seafoam: #c8f7ea;
+
+}
+
+/* Main Classes */
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--green)
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black)
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--green)
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--black)
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--black);
+    margin-bottom: 15px;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: var(--black);
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--green);
+    font-weight: 700;
+}
+
+.title {
+    font-size: 3.5rem;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+
+/* Header */
+.header {
+    overflow: hidden;
+}
+
+.header-title {
+    font-weight: 600;
+}
+
+.header h2 {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-selected {
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.header-elements {
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.header a:hover {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+/* Content */
+.content {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.contentContinued {
+    max-width: 767px;
+    margin: auto;
+}
+
+
+/* Footer */
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 20px;
+   background-color: var(--green);
+   font-family: Lato, sans-serif;
+   color: white;
+   text-align: center;
+}
