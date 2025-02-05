@@ -2,6 +2,7 @@
 
 :root {
   --white: #ffffff;
+  --grey: #efefef;
   --black: #000000;
   --navy: #1d2e44;
   --green: #006848;
@@ -177,6 +178,12 @@ th, td {
 
 .acadYear {
     font-weight: 600;
+    background-color: var(--white);
+}
+
+.acadYearGrey {
+    font-weight: 600;
+    background-color: var(--grey);
 }
 
 tfoot {
