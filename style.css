@@ -178,11 +178,9 @@ th, td {
 
 .acadYear {
     font-weight: 600;
-    background-color: var(--white);
 }
 
-.acadYearGrey {
-    font-weight: 600;
+.cellGrey {
     background-color: var(--grey);
 }
 
