@@ -65,6 +65,13 @@ a:hover {
     font-weight: 700;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .title {
     font-size: 3.5rem;
     text-align: center;
@@ -144,6 +151,52 @@ a:hover {
     margin: auto;
 }
 
+/* Table */
+table {
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.Data {
+    border: 3px solid var(--black);
+}
+thead {
+    font-weight: 600;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+thead.Data {
+    border-bottom: 3px solid var(--black);
+}
+
+th, td {
+    padding: 5px;
+}
+
+.acadYear {
+    font-weight: 600;
+}
+
+tfoot {
+    font-weight: 600;
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+td.borderBottom {
+    border-bottom: 3px solid var(--black);
+}
+
+td.borderTop {
+    border-top: 3px solid var(--black);
+}
+
+.Data td {
+    border-left: 3px solid var(--black);
+    border-right: 3px solid var(--black);
+}
 
 /* Footer */
 .footer {
@@ -155,4 +208,43 @@ a:hover {
    font-family: Lato, sans-serif;
    color: var(--white);
    text-align: center;
+}
+
+/* Mobile Media Screen TABLE*/
+@media screen and (max-width: 730px) {
+    
+ table {
+    font-family: Lato, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.4vw
+}   
+   
+th, td {
+    padding: 0.4vw;
+}
+ h1 {
+    font-size: 4vw;
+
+}   
+ 
+table.Data {
+    border: 0.3vw solid var(--black);
+}
+
+thead.Data {
+    border-bottom: 0.3vw solid var(--black);
+}
+  
+td.borderBottom {
+    border-bottom: 0.3vw solid var(--black);
+}
+
+td.borderTop {
+    border-top: 0.3vw solid var(--black);
+}
+
+.Data td {
+    border-left: 0.3vw solid var(--black);
+    border-right: 0.3vw solid var(--black);
 }
