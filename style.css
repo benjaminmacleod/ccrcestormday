@@ -215,7 +215,7 @@ td.borderTop {
 .footer {
    left: 0;
    bottom: 0;
-   width: 100%;
+   width: auto;
    padding: 20px;
    background-color: var(--green);
    font-family: Lato, sans-serif;
